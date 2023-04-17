@@ -33,7 +33,7 @@ wget --load-cookies /tmp/cookies.txt "https://drive.google.com/uc?export=downloa
 sleep 5
 clear
 
-./gdrive upload /root/"$nama"
+./gdrive upload ./"$nama"
 
 sleep 5
 clear
